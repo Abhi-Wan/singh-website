@@ -16,13 +16,18 @@
 }
 
 .header .left-section {
-  width: 200px;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+.header .home-link {
   display: flex;
   align-items: center;
 }
 
 .header .header-logo {
-  height: 1.5em;
+  height: 40px;
 }
 
 .header .home-text {
@@ -54,16 +59,17 @@
 }
 
 .header .header-link:hover {
-  border: 2px solid rgb(250, 128, 114);
-  margin-left: 8.5px;
-  margin-right: 8.5px;
-  margin-top: 8.5px;
-  margin-bottom: 8.5px;
+  background-color: rgb(254, 174, 165);
+  .nav-text {
+    color: black
+  }
 }
 
-.header .header-link:active {
-  text-decoration: underline;
-  text-decoration-color: rgb(250, 128, 114);
+.header .header-link.active {
+  background-color: rgb(250, 128, 114);
+  .nav-text {
+    color: black;
+  }
 }
 
 .header .nav-text {
@@ -74,24 +80,23 @@
 }
 
 .header .right-section {
-  width: 180px;
-  flex-shrink: 0;
+  width: 100px;
   display: flex;
+  align-items: center;
   justify-content: end;
 }
 
-.header .link-logo {
-  height: 30px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.header .link-logo:hover {
-  height: 34px;
+.header .logo {
+  height: 24px;
   margin-left: 8px;
   margin-right: 8px;
   margin-top: 8px;
-  margin-bottom: 8px;
+}
+
+.header .logo-link:hover {
+  .logo {
+    height: 28px;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
 }

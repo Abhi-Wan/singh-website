@@ -1,43 +1,46 @@
-import viteLogo from '/vite.svg'
+import { NavLink } from "react-router";
+import GithubLogo from "/github.png";
+import LinkedInLogo from "/linkedin.png";
+import ProfilePic from "../assets/profile.jpg";
 import './Header.css';
 
 export function Header() {
   return (
     <div className="header">
       <div className="left-section">
-        <a href="/">
-          <img src={viteLogo} className="header-logo" alt="Vite logo" />
+        <NavLink to="/" className="home-link">
+          <img src={ProfilePic} className="header-logo" alt="Vite logo" />
           <span className="home-text">Abhinav Singh</span>
-        </a>
+        </NavLink>
       </div>
 
       <div className="middle-section">
-        <a href="/" className="header-link">
+        <NavLink to="/" className="header-link">
           <span className="nav-text">Home</span>
-        </a>
-        <a href="/about" className="header-link">
+        </NavLink>
+        <NavLink to="/about" className="header-link">
           <span className="nav-text">About</span>
-        </a>
-        <a href="/resume" className="header-link">
+        </NavLink>
+        <NavLink to="/resume" className="header-link">
           <span className="nav-text">Resume</span>
-        </a>
-        <a href="/projects" className="header-link">
+        </NavLink>
+        <NavLink to="/projects" className="header-link">
           <span className="nav-text">Code Projects</span>
-        </a>
-        <a href="/photos" className="header-link">
+        </NavLink>
+        <NavLink to="/photos" className="header-link">
           <span className="nav-text">Photography</span>
-        </a>
-        <a href="/contact" className="header-link">
+        </NavLink>
+        <NavLink to="/contact" className="header-link">
           <span className="nav-text">Contact</span>
-        </a>
+        </NavLink>
       </div>
 
       <div className="right-section">
-        <a href="https://www.linkedin.com/in/abhinavsinghuw/" target="_blank">
-          <img src={viteLogo} className="link-logo" alt="Vite logo" />
+        <a href="https://www.linkedin.com/in/abhinavsinghuw/" target="_blank" className="logo-link">
+          <img src={LinkedInLogo} className="logo" alt="LinkedIn logo" />
         </a>
-        <a href="https://github.com/Abhi-Wan/" target="_blank">
-          <img src={viteLogo} className="link-logo" alt="Vite logo" />
+        <a href="https://github.com/Abhi-Wan/" target="_blank" className="logo-link">
+          <img src={GithubLogo} className="logo" alt="Github logo" />
         </a>
       </div>
     </div>
