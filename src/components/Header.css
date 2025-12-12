@@ -1,0 +1,97 @@
+.header {
+  background-color: rgb(48, 59, 80);
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+}
+
+.header .left-section {
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.header .header-logo {
+  height: 1.5em;
+}
+
+.header .home-text {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  margin-left: 10px;
+}
+
+.header .middle-section {
+  flex: 1;
+  max-width: 850px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.header .header-link {
+  display: inline-block;
+  padding: 6px 9.5px;
+  border-radius: 2px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.header .header-link:hover {
+  border: 2px solid rgb(250, 128, 114);
+  margin-left: 8.5px;
+  margin-right: 8.5px;
+  margin-top: 8.5px;
+  margin-bottom: 8.5px;
+}
+
+.header .header-link:active {
+  text-decoration: underline;
+  text-decoration-color: rgb(250, 128, 114);
+}
+
+.header .nav-text {
+  display: block;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.header .right-section {
+  width: 180px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: end;
+}
+
+.header .link-logo {
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.header .link-logo:hover {
+  height: 34px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
