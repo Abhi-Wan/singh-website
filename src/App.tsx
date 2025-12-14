@@ -4,6 +4,7 @@ import { AboutPage } from "./pages/AboutPage"
 import { ProjectsPage } from "./pages/ProjectsPage"
 import { PhotosPage } from "./pages/PhotosPage"
 import { ContactPage } from "./pages/ContactPage"
+import { NotFoundPage } from "./pages/NotFoundPage"
 import './App.css'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Route path="projects" element={<ProjectsPage />} />
       <Route path="photos" element={<PhotosPage />} />
       <Route path="contact" element={<ContactPage />} />
+      <Route path="*" element={<NotFoundPage />} />
     </Routes>
   )
 }
