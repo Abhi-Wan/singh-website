@@ -1,4 +1,5 @@
 import { Header } from "../components/Header";
+import { Resume } from "../components/Resume";
 import "./ResumePage.css";
 
 export function ResumePage() {
@@ -8,11 +9,8 @@ export function ResumePage() {
       <title>Resume</title>
 
       <Header />
-
-      <div className="resume-page">
-        <h1>Resume page</h1>
-        <p>TBD: Resume page content</p>
-      </div>
+      <h1 className="title">Software Developer Resume</h1>
+      <Resume />
     </>
   );
 }

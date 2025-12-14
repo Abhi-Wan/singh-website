@@ -1,6 +1,7 @@
-.resume-page {
-  margin-top: 60px;
+.title {
+  margin-top: 80px;
+  margin-bottom: 16px;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
 }
