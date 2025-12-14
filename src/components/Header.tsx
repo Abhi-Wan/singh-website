@@ -23,9 +23,6 @@ export function Header() {
         <NavLink to="/about" className="header-link">
           <span className="nav-text">About</span>
         </NavLink>
-        <NavLink to="/resume" className="header-link">
-          <span className="nav-text">Resume</span>
-        </NavLink>
         <NavLink to="/projects" className="header-link">
           <span className="nav-text">Code Projects</span>
         </NavLink>
@@ -60,9 +57,6 @@ export function Header() {
           </NavLink>
           <NavLink to="/about" className="header-link" onClick={() => setMenuOpen(false)}>
             <span className="nav-text">About</span>
-          </NavLink>
-          <NavLink to="/resume" className="header-link" onClick={() => setMenuOpen(false)}>
-            <span className="nav-text">Resume</span>
           </NavLink>
           <NavLink to="/projects" className="header-link" onClick={() => setMenuOpen(false)}>
             <span className="nav-text">Code Projects</span>
