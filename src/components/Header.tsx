@@ -24,10 +24,10 @@ export function Header() {
           <span className="nav-text">About</span>
         </NavLink>
         <NavLink to="/projects" className="header-link">
-          <span className="nav-text">Code Projects</span>
+          <span className="nav-text">Code</span>
         </NavLink>
         <NavLink to="/photos" className="header-link">
-          <span className="nav-text">Photography</span>
+          <span className="nav-text">Photos</span>
         </NavLink>
         <NavLink to="/contact" className="header-link">
           <span className="nav-text">Contact</span>
