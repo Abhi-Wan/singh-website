@@ -1,0 +1,13 @@
+.album-page {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}

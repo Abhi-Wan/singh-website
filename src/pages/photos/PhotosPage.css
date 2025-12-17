@@ -3,10 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.photos-page .title {
-  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .album-title {
@@ -16,7 +13,7 @@
   font-style: normal;
   font-size: 2em;
   justify-content: left;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 0;
   margin-left: 10px;
 }
