@@ -4,3 +4,19 @@
   flex-direction: column;
   align-items: center;
 }
+
+.photos-page .title {
+  justify-content: center;
+}
+
+.album-title {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2em;
+  justify-content: left;
+  margin-top: 20px;
+  margin-bottom: 0;
+  margin-left: 10px;
+}

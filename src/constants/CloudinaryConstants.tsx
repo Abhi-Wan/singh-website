@@ -1,0 +1,1 @@
+export const CLOUD_NAME = "dg59nrr85";
